@@ -10,7 +10,7 @@ class MyQueue
         else
         {
             string top_queue = aQueue.Peek();
-            Console.WriteLine("Top item: {0}", top_queue);
+            Console.WriteLine("First item: {0}", top_queue);
         }
         if (aQueue.Contains(search) == true)
         {
