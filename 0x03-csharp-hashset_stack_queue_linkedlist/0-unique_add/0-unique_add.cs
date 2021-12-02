@@ -7,9 +7,9 @@ class List
     {
         int sum = 0;
         List<int> copy = new HashSet<int>(myList).ToList();
-        for (int i = 0; i < myList.Count; i++)
+        for (int i = 0; i < copy.Count; i++)
         {
-            sum += myList[i];
+            sum += copy[i];
         }
         return sum;
     }
