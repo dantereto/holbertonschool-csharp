@@ -19,7 +19,7 @@ namespace _100_jagged_array
                     if (j < jaggedArray[i].Length -1)
                         Console.Write("{0} ", jaggedArray[i][j]);
                     else
-                        Console.WriteLine("{0}", jaggedArray[i][j]);
+                        Console.Write("{0}\n", jaggedArray[i][j]);
                 }
             }
         }
