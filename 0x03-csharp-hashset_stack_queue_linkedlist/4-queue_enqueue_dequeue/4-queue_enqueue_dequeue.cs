@@ -6,7 +6,7 @@ class MyQueue
     {
         Console.WriteLine("Number of items: {0}", aQueue.Count);
         if (aQueue.Count <= 0)
-            Console.WriteLine("Stack is empty");
+            Console.WriteLine("Queue is empty");
         else
         {
             string top_queue = aQueue.Peek();
