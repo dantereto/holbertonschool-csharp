@@ -10,18 +10,16 @@ class LList
         {
             if (node.Value > n)
             {
-                if (node.Next == null)
-                {
+                
                     myLList.AddBefore(node, new_n);
                     break;
-                }
-                else 
+            }
+            else 
+            {
+                if (node.Next == null)
                 {
-                    if (node.Next == null)
-                    {
                     myLList.AddAfter(node, new_n);
                     break;
-                    }
                 }
             }
             node = node.Next;
