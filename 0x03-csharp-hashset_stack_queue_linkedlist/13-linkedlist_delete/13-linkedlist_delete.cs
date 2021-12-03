@@ -7,7 +7,7 @@ class LList
         LinkedListNode<int> del = myLList.First;
         for (int i = 0; i < index && del.Next != null; i++)
             del = del.Next;
-        if (index == index)
+        if (i == index)
             myLList.Remove(del); 
     }
 }
