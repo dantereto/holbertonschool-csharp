@@ -17,8 +17,11 @@ class LList
                 }
                 else 
                 {
+                    if (node.Next == null)
+                    {
                     myLList.AddBefore(node, new_n);
                     break;
+                    }
                 }
             }
             node = node.Next;
