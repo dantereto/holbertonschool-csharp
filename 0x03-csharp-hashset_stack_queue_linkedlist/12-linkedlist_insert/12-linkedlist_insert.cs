@@ -12,14 +12,14 @@ class LList
             {
                 if (node.Next == null)
                 {
-                    myLList.AddAfter(node, new_n);
+                    myLList.AddBefore(node, new_n);
                     break;
                 }
                 else 
                 {
                     if (node.Next == null)
                     {
-                    myLList.AddBefore(node, new_n);
+                    myLList.AddAfter(node, new_n);
                     break;
                     }
                 }
