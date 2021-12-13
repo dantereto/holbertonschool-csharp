@@ -1,4 +1,4 @@
-﻿public enum Rating 
+﻿enum Rating 
 {
     Good,
     Great,
