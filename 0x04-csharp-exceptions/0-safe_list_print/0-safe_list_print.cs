@@ -4,7 +4,7 @@ class List
 {
     public static int SafePrint(List<int> myList, int n)
     {
-        int i = 0;
+        int i;
         for(i = 0; i < n; i++)
         {
             try
