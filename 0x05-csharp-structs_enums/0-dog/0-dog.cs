@@ -1,5 +1,4 @@
-﻿enum Rating 
-{
+﻿enum Rating {
     Good,
     Great,
     Excellent
