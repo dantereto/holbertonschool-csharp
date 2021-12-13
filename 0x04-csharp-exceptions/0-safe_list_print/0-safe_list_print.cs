@@ -7,8 +7,6 @@ class List
         int i = 0;
         try
         {
-
-        
             for(; i < n; i++)
             {
                 Console.WriteLine(myList[i]);
