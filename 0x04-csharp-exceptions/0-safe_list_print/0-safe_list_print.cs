@@ -1,20 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
+
 class List
 {
     public static int SafePrint(List<int> myList, int n)
     {
-        int i;
-        for(i = 0; i < n; i++)
+        int i = 0;
+        try
         {
-            try
+            while (i < n)
             {
                 Console.WriteLine(myList[i]);
+                i++;
             }
-            catch (Exception)
-            {
-                return i;
-            }
+        }
+        catch (Exception)
+        {
+
         }
         return i;
     }
