@@ -22,6 +22,7 @@ namespace Enemies
             else
                 this.health = value;
         }
+        /// <summary>Get the health <see cref="Zombie"/> class.</summary>
         public int GetHealth(){
             return this.health;
         }
