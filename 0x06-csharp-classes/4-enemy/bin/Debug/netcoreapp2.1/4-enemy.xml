@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>4-enemy</name>
+    </assembly>
+    <members>
+        <member name="T:Enemies.Zombie">
+            <summary>
+            Class of enemies
+            </summary>
+        </member>
+        <member name="F:Enemies.Zombie.health">
+            <summary> Zombie health</summary>
+        </member>
+        <member name="F:Enemies.Zombie.name">
+            <summary> Zombie name</summary>
+        </member>
+        <member name="P:Enemies.Zombie.Name">
+            <summary> Zombie name</summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor">
+            <summary>Initializes a new instance of the <see cref="T:Enemies.Zombie"/> class.</summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor(System.Int32)">
+            <summary>Initializes a new instance of the <see cref="T:Enemies.Zombie"/> class.</summary>
+        </member>
+        <member name="M:Enemies.Zombie.GetHealth">
+            <summary>Get the health <see cref="T:Enemies.Zombie"/> class.</summary>
+        </member>
+    </members>
+</doc>
