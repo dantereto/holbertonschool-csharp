@@ -14,6 +14,7 @@ namespace Enemies
         public Zombie(){
             health = 0;
         }
+        /// <summary>Initializes a new instance of the <see cref="Zombie"/> class.</summary>
         public Zombie(int value)
         {
             if (value < 0)
