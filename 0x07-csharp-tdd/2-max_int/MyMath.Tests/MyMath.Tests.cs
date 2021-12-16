@@ -9,16 +9,23 @@ namespace MyMath.Tests
         [Test]
         public void Max()
         {
-            var list = new List<int>()
+            List<int> list_d = new List<int>()
             {2,3,5,10};
-            int max = Operations.Max(list);
+            int max = Operations.Max(list_d);
             Assert.AreEqual(max, 10);
         }
+        [Test]
         public void Empty()
         {
-            var list = new List<int>();
-            int max = Operations.Max(list);
+            List<int> list_d = new List<int>();
+            int max = Operations.Max(list_d);
             Assert.AreEqual(max, 0);
+        }
+        [Test]
+        public void null_d()
+        {
+            List<int> list_d = new List<int>();
+            Assert.AreEqual(Operations.Max(list_d), 0);
         }
     }
 }
