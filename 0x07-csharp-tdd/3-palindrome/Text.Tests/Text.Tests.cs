@@ -19,5 +19,10 @@ namespace Text.Tests
         {
             Assert.IsTrue(Text.Str.IsPalindrome(""));
         }
+        [Test]
+        public void OtherCase()
+        {
+            Assert.IsTrue(Text.Str.IsPalindrome("A man, a plan, a canal: Panama."));
+        }
     }
 }
