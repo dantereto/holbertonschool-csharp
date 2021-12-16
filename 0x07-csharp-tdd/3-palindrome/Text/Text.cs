@@ -8,7 +8,7 @@ namespace Text
         /// <summary> Check if its a palindrome</summary>
         public static bool IsPalindrome(string s)
         {
-            if (s == null)
+            if (s.Length == 0)
                 return true;
             string first = s.Substring(0, s.Length / 2);
             char[] array = s.ToCharArray();
