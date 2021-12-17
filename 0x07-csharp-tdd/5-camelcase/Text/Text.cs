@@ -9,7 +9,7 @@ namespace Text
         public static int CamelCase(string s)
         {
             int count = 1;
-            if (s == null)
+            if (s == null || s == "")
                 return 0;
             for (int i = 1; i < s.Length - 1; i++)
             {
