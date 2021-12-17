@@ -17,5 +17,11 @@ namespace Text.Tests
             string c = "hihello";
             Assert.AreEqual(Str.CamelCase(c), 1);
         }
+        [Test]
+        public void TestCamel()
+        {
+            string c = "";
+            Assert.AreEqual(Str.CamelCase(c), 0);
+        }
     }
 }
