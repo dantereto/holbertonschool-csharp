@@ -2,8 +2,10 @@
 
 namespace Text
 {
+    /// <summary> Class of unique</summary>
     public class Str
     {
+        /// <summary> unique number on list</summary>
         public static int UniqueChar(string s)
         {
             bool check;
