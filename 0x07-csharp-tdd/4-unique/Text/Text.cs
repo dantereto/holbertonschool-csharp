@@ -9,7 +9,6 @@ namespace Text
         public static int UniqueChar(string s)
         {
             bool check;
-            char search = s[0];
             for (int i = 0; i < s.Length; i++)
             {
                 check = true;

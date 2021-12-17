@@ -28,5 +28,17 @@ namespace Text.Tests
             string co= "asdjsja";
             Assert.AreEqual(Str.UniqueChar(co), 2);
         }
+        [Test]
+        public void TestOne()
+        {
+            string co= "s";
+            Assert.AreEqual(Str.UniqueChar(co), 0);
+        }
+        [Test]
+        public void TestEmpty()
+        {
+            string co= "";
+            Assert.AreEqual(Str.UniqueChar(co), -1);
+        }
     }
 }

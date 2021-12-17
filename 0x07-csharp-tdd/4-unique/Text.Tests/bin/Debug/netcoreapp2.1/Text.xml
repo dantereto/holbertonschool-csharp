@@ -4,5 +4,11 @@
         <name>Text</name>
     </assembly>
     <members>
+        <member name="T:Text.Str">
+            <summary> Class of unique</summary>
+        </member>
+        <member name="M:Text.Str.UniqueChar(System.String)">
+            <summary> unique number on list</summary>
+        </member>
     </members>
 </doc>
