@@ -4,5 +4,11 @@
         <name>Text</name>
     </assembly>
     <members>
+        <member name="T:Text.Str">
+            <summary> Class of Text</summary>
+        </member>
+        <member name="M:Text.Str.CamelCase(System.String)">
+            <summary> Count the camelcase</summary>
+        </member>
     </members>
 </doc>

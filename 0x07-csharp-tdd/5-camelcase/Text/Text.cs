@@ -10,7 +10,7 @@ namespace Text
         {
             int count = 1;
             if (s == null)
-                return null;
+                return 0;
             for (int i = 1; i < s.Length - 1; i++)
             {
                 if (s[i] >= 65 && s[i] <= 90)

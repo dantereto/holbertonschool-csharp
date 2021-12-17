@@ -18,9 +18,9 @@ namespace Text.Tests
             Assert.AreEqual(Str.CamelCase(c), 1);
         }
         [Test]
-        public void TestCamel()
+        public void TestNull()
         {
-            string c = "";
+            string c = null;
             Assert.AreEqual(Str.CamelCase(c), 0);
         }
     }
