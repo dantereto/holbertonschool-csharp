@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>9-vector_scalar_mu</name>
+    </assembly>
+    <members>
+        <member name="T:VectorMath">
+            <summary> Class of vectors</summary>
+        </member>
+        <member name="M:VectorMath.Multiply(System.Double[],System.Double)">
+            <summary>double for scalar</summary>
+        </member>
+    </members>
+</doc>
