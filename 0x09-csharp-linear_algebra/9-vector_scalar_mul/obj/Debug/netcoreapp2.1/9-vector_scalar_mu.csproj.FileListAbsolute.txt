@@ -1,0 +1,12 @@
+C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\9-vector_scalar_mu\bin\Debug\netcoreapp2.1\9-vector_scalar_mu.deps.json
+C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\9-vector_scalar_mu\bin\Debug\netcoreapp2.1\9-vector_scalar_mu.runtimeconfig.json
+C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\9-vector_scalar_mu\bin\Debug\netcoreapp2.1\9-vector_scalar_mu.runtimeconfig.dev.json
+C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\9-vector_scalar_mu\bin\Debug\netcoreapp2.1\9-vector_scalar_mu.dll
+C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\9-vector_scalar_mu\bin\Debug\netcoreapp2.1\9-vector_scalar_mu.pdb
+C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\9-vector_scalar_mu\obj\Debug\netcoreapp2.1\9-vector_scalar_mu.csprojAssemblyReference.cache
+C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\9-vector_scalar_mu\obj\Debug\netcoreapp2.1\9-vector_scalar_mu.csproj.CoreCompileInputs.cache
+C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\9-vector_scalar_mu\obj\Debug\netcoreapp2.1\9-vector_scalar_mu.AssemblyInfoInputs.cache
+C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\9-vector_scalar_mu\obj\Debug\netcoreapp2.1\9-vector_scalar_mu.AssemblyInfo.cs
+C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\9-vector_scalar_mu\obj\Debug\netcoreapp2.1\9-vector_scalar_mu.dll
+C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\9-vector_scalar_mu\obj\Debug\netcoreapp2.1\9-vector_scalar_mu.pdb
+C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\9-vector_scalar_mu\bin\Debug\netcoreapp2.1\9-vector_scalar_mu.xml
