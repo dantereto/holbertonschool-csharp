@@ -1,6 +1,8 @@
 ﻿using System;
+/// <summary> Class of vectors</summary>
 class VectorMath
 {
+    /// <summary>double for vector</summary>
     public static double Magnitude(double[] vector)
     {
         if (vector.Length == 2 || vector.Length == 3)
@@ -11,10 +13,5 @@ class VectorMath
         return Math.Round(Math.Sqrt(sum), 2);
         }
         return -1;
-    }
-    static void Main(string[] args)
-    {
-        double [] vector = {9, 5};
-        Console.WriteLine(VectorMath.Magnitude(vector));
     }
 }
