@@ -8,7 +8,7 @@
             <summary> Class of matrix</summary>
         </member>
         <member name="M:MatrixMath.Multiply(System.Double[0:,0:],System.Double[0:,0:])">
-            <summary>double for matrix multiply</summary>
+            <summary>double for matrix scalar</summary>
         </member>
     </members>
 </doc>
