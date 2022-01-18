@@ -5,8 +5,8 @@ class MatrixMath
     /// <summary> double to sum matrix</summary>
     public static double[,] Add(double[,] matrix1, double[,] matrix2)
     {
-        if (matrix1.GetLength(0) == matrix1.GetLength(1) ||
-            matrix2.GetLength(0) == matrix2.GetLength(1) ||
+        if (matrix1.GetLength(0) == 2 && matrix1.GetLength(1) == 2 ||
+            matrix1.GetLength(0) == 3  &&matrix2.GetLength(1) == 3||
             matrix1.Length == matrix2.Length)
         {
             for (var i = 0; i < matrix1.GetLength(0); i++)
