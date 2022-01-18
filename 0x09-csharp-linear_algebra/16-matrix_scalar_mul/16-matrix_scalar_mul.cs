@@ -1,7 +1,8 @@
 ﻿using System;
-
+/// <summary> Class of matrix</summary>
 class MatrixMath
 {
+    /// <summary>double for matrix scalar</summary>
     public static double[,] MultiplyScalar(double[,] matrix, double scalar)
     {
         if ((matrix.GetLength(0) == 2 && matrix.GetLength(1) == 2))
