@@ -9,9 +9,9 @@ class MatrixMath
             matrix1.GetLength(0) == 3  &&matrix2.GetLength(1) == 3||
             matrix1.Length == matrix2.Length)
         {
-            for (var i = 0; i < matrix1.GetLength(0); i++)
+            for (int i = 0; i < matrix1.GetLength(0); i++)
             {
-                for (var j = 0; j < matrix2.GetLength(1); j++)
+                for (int j = 0; j < matrix2.GetLength(1); j++)
                     matrix1[i, j] += matrix2[i, j];
             }
             return matrix1;
