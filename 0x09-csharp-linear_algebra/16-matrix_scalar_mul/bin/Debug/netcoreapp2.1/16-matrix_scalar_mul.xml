@@ -4,5 +4,11 @@
         <name>16-matrix_scalar_mul</name>
     </assembly>
     <members>
+        <member name="T:MatrixMath">
+            <summary> Class of matrix</summary>
+        </member>
+        <member name="M:MatrixMath.MultiplyScalar(System.Double[0:,0:],System.Double)">
+            <summary>double for matrix scalar</summary>
+        </member>
     </members>
 </doc>
