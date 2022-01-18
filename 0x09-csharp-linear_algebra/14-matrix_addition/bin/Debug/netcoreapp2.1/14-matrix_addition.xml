@@ -4,5 +4,11 @@
         <name>14-matrix_addition</name>
     </assembly>
     <members>
+        <member name="T:MatrixMath">
+            <summary> Class of matrix</summary>
+        </member>
+        <member name="M:MatrixMath.Add(System.Double[0:,0:],System.Double[0:,0:])">
+            <summary> double to sum matrix</summary>
+        </member>
     </members>
 </doc>
