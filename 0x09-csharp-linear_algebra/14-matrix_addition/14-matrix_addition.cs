@@ -1,6 +1,8 @@
 ﻿using System;
+/// <summary> Class of matrix</summary>
 class MatrixMath
 {
+    /// <summary> double to sum matrix</summary>
     public static double[,] Add(double[,] matrix1, double[,] matrix2)
     {
         if (matrix1.GetLength(0) == matrix1.GetLength(1) ||
