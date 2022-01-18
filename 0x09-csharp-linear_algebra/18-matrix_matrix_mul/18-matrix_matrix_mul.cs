@@ -2,7 +2,7 @@
 /// <summary> Class of matrix</summary>
 class MatrixMath
 {
-     /// <summary>double for matrix multiply</summary>
+    /// <summary>double for matrix multiply</summary>
     public static double[,] Multiply(double[,] matrix1, double[,] matrix2)
     {
         double [,] result; 
