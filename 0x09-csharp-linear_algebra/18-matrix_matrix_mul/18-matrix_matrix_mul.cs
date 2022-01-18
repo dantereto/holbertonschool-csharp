@@ -26,4 +26,5 @@ class MatrixMath
         }
         return new double[,] {{-1}};
     }
+    
 }
