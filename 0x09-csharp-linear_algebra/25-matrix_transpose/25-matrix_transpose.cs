@@ -11,8 +11,9 @@ class MatrixMath
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)
-                    result[j, i] = matrix[i, j];
+                    result[i, j] = matrix[j, i];
             }
+            return result;
         }
         return new double[,]{};
     }
