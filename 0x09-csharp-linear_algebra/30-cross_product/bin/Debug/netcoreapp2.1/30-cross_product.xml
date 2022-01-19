@@ -4,6 +4,9 @@
         <name>30-cross_product</name>
     </assembly>
     <members>
+        <member name="T:VectorMath">
+            <summary> Class of matrix</summary>
+        </member>
         <member name="M:VectorMath.CrossProduct(System.Double[],System.Double[])">
             <summary>double for matrix scalar</summary>
         </member>
