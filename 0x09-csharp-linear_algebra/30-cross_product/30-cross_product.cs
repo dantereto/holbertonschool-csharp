@@ -13,6 +13,6 @@ class VectorMath
                 vector1[0] * vector2[1] - vector1[1] * vector2[0]
             };
         }
-        return new double[1] {-1};
+        return new double[1] { -1 };
     }
 }
