@@ -9,3 +9,4 @@ C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\30-c
 C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\30-cross_product\obj\Debug\netcoreapp2.1\30-cross_product.AssemblyInfo.cs
 C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\30-cross_product\obj\Debug\netcoreapp2.1\30-cross_product.dll
 C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\30-cross_product\obj\Debug\netcoreapp2.1\30-cross_product.pdb
+C:\Users\DANTE\Music\math\holbertonschool-csharp\0x09-csharp-linear_algebra\30-cross_product\bin\Debug\netcoreapp2.1\30-cross_product.xml
