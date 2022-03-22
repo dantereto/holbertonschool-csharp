@@ -1,5 +1,5 @@
 ﻿using System;
-public class Queue<T>
+class Queue<T>
 {
     Node head = null;
     Node tail = null;
