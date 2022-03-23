@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>5-iterate_act</name>
+    </assembly>
+    <members>
+        <member name="T:Base">
+            <summary> Abstract base class </summary>
+        </member>
+        <member name="P:Base.name">
+            <summary> Abstract base class </summary>
+        </member>
+        <member name="M:Base.ToString">
+            <summary> Abstract base class </summary>
+        </member>
+        <member name="T:Key">
+            <summary> Abstract base class </summary>
+        </member>
+        <member name="P:Key.isCollected">
+            <summary> Abstract base class </summary>
+        </member>
+        <member name="M:Key.#ctor(System.String,System.Boolean)">
+            <summary> Abstract base class </summary>
+        </member>
+        <member name="M:Key.Collect">
+            <summary> Abstract base class </summary>
+        </member>
+        <member name="T:RoomObjects">
+            <summary> Abstract base class </summary>
+        </member>
+        <member name="M:RoomObjects.IterateAction(System.Collections.Generic.List{Base},System.Type)">
+            <summary> Abstract base class </summary>
+        </member>
+    </members>
+</doc>
