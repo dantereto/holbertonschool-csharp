@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>4-keys</name>
+    </assembly>
+    <members>
+        <member name="T:Base">
+            <summary> Abstract base class </summary>
+        </member>
+        <member name="P:Base.name">
+            <summary> Abstract base class </summary>
+        </member>
+        <member name="M:Base.ToString">
+            <summary> Abstract base class </summary>
+        </member>
+        <member name="T:Key">
+            <summary> Abstract base class </summary>
+        </member>
+        <member name="P:Key.isCollected">
+            <summary> Abstract base class </summary>
+        </member>
+        <member name="M:Key.#ctor(System.String,System.Boolean)">
+            <summary> Abstract base class </summary>
+        </member>
+        <member name="M:Key.Collect">
+            <summary> Abstract base class </summary>
+        </member>
+    </members>
+</doc>
