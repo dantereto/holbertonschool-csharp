@@ -86,7 +86,7 @@ public class Key: Base, ICollectable
             isCollected = true;
             Console.WriteLine("You pick up the {0}.", name);
         }
-        if (isCollected == true)
+        else
             Console.WriteLine("You have already picked up the {0}.", name);
     }
 }
