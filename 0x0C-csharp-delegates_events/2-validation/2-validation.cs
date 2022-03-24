@@ -34,7 +34,7 @@ public class Player
             return;
         }
         Console.WriteLine($"{name} takes {damage} damage!");
-        ValidateHP(this.hp - damage);
+        this.ValidateHP(this.hp - damage);
     }
     /// <summary> Player Class </summary>
     public void HealDamage(float heal)
@@ -44,7 +44,7 @@ public class Player
             Console.WriteLine($"{name} heals 0 HP!");
             return;
         }
-        ValidateHP(this.hp + heal);
+        this.ValidateHP(this.hp + heal);
         Console.WriteLine($"{name} heals {heal} HP!");
     }
     /// <summary> Player Class </summary>
