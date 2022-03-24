@@ -33,7 +33,7 @@ public class Player
         }
         this.maxHp = maxHp;
         this.hp = maxHp;
-        this.status = $"{name} is ready to go!";
+        this.status = String.Format("{0} is ready to go!", this.name);
         HPCheck += CheckStatus;
     }
     /// <summary> Player Class </summary>
