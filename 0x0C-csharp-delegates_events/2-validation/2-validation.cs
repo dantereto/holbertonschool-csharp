@@ -28,7 +28,7 @@ public class Player
     /// <summary> Player Class </summary>
     public void TakeDamage(float damage)
     {
-        if (damage < 0)
+        if (damage <= 0)
         {
             Console.WriteLine($"{name} takes 0 damage!");
             return;
@@ -39,13 +39,13 @@ public class Player
     /// <summary> Player Class </summary>
     public void HealDamage(float heal)
     {
-        if (heal < 0)
+        if (heal <= 0)
         {
             Console.WriteLine($"{name} heals 0 HP!");
             return;
         }
-        ValidateHP(this.hp + heal);
         Console.WriteLine($"{name} heals {heal} HP!");
+        ValidateHP(this.hp + heal);
     }
     /// <summary> Player Class </summary>
     public void ValidateHP(float newHp)
