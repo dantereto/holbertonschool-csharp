@@ -72,7 +72,7 @@ public class Player
             this.hp = maxHp;
         else
             this.hp = newHp;
-        CheckStatus(HPCheck, new CurrentHPArgs(this.hp));
+        HPCheck(this, new CurrentHPArgs(this.hp));
     }
     /// <summary> Player Class </summary>
     public float ApplyModifier(float baseValue, Modifier modifier)
