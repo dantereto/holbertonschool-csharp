@@ -40,9 +40,9 @@ public class Player
     /// <summary> Player Class </summary>
     public void HealDamage(float heal)
     {
-        if (heal <= 0)
+        if (heal <= 0f)
         {
-            heal = 0;
+            heal = 0f;
             Console.WriteLine($"{name} heals 0 HP!");
             return;
         }
@@ -52,9 +52,9 @@ public class Player
     /// <summary> Player Class </summary>
     public void ValidateHP(float newHp)
     {
-        if (newHp < 0)
-            this.hp = 0;
-        if (newHp >= maxHp)
+        if (newHp <= 0f)
+            this.hp = 0f;
+        else if (newHp >= maxHp)
             this.hp = maxHp;
         else
             this.hp = newHp;
